@@ -26,7 +26,7 @@ let gameStarted = false,
     playerScore = 0,
     deck =[];
 
-
+    
 //hide unwanted buttons
 hitButton.style.display = 'none';
 stayButton.style.display = 'none';

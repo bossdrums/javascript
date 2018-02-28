@@ -11,7 +11,8 @@
 let result = (30-2)*3;
 
 console.log(result);
-
+console.warn("Warning!!!");
+console.error("This is an error");
 
 
 

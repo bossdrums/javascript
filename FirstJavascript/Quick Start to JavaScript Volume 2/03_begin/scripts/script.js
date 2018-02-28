@@ -20,7 +20,7 @@ switch(sign){
 */
 
 //prints numbers 1-10 to the console
-for(var i = 1; i < 11; i++){
+for(var i = 1; i <= 10; i++){
     console.log(i);
 }
 

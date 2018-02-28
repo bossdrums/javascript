@@ -1,0 +1,33 @@
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: navy;
+    margin-left: 10px;
+  
+}
+
+h4 {
+    color: navy;
+    margin-left: 10px;
+  
+}
+
+p {
+    color: navy;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid navy;
+    padding: 20px; 
+    width: 200px;
+    height: 260px; 
+  
+}
+
+button {
+    color: navy;
+    margin-left: 10px;
+  
+}

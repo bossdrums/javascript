@@ -33,28 +33,19 @@ Remember: There are many ways to create things with code! The most important par
 After, look for ways you might improve your code! 
 */
 
-//Write and store scenarios
 var beginningScenarios = ["You wake up in a hospital.  It is eerily quiet.  You tiptoe to the door and peek out.", "You are standing in an open field west of a white house with a boarded front door. There is a small mailbox here.", "Desperate times call for desperate measures.  You see a small convenience store up ahead and decide to loot it for goods." ];
 
-//Alert a random scenario from the list of possible scenarios 
 function randomNumber(range) {
-    return Math.round(Math.random() * range );
+  return Math.round( Math.random() * range );
 }
 
-alert(beginningScenarios[randomNumber(beginningScenarios.length - 1)] );
+alert( beginningScenarios[ randomNumber( beginningScenarios.length - 1 ) ] );
 
-//console.log(beginningScenarios);
-
-//Create and store weapons
 var weaponList = ["shovel", "crossbow", "baseball bat", "rubber chicken"];
 
-//Alert which weapon the player finds
-var weapon = weaponList[randomNumber(weaponList.length - 1)];
+var weapon = weaponList[ randomNumber( weaponList.length - 1) ];
 alert("Being that it is the zombie apocalypse, you decide to search for a weapon first. After surveying your surroundings you notice and grab a " + weapon + ".");
 
-//console.log(weapon);
-
-//Fight the zombie and decide who wins
 alert("Suddenly a zombie bursts through the door!  You ready your " + weapon + " and advance towards the zombie.");
 
 var survival =  randomNumber(2);

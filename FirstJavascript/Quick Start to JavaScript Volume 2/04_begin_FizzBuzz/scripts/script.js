@@ -21,7 +21,7 @@ else {
 
 
 for( i = 1; i <= 100; i++ ){
-    if(i % 3 === 0 && i != 0) {
+    if(i % 3 === 0) {
         if(i % 5 === 0) {
             console.log("FizzBuzz");
         }
@@ -29,7 +29,7 @@ for( i = 1; i <= 100; i++ ){
         console.log("Fizz");
         }
     }
-    else if(i % 5 === 0 && i != 0) {
+    else if(i % 5 === 0) {
         console.log("Buzz");
     }
     else {
@@ -39,7 +39,7 @@ for( i = 1; i <= 100; i++ ){
 
 
 for( i = 1; i <= 100; i++ ){
-    if(i % 3 === 0 && i != 0) {
+    if(i % 3 === 0) {
         if(i % 5 === 0) {
             console.log(i + " " + "is divisible by 3 & 5");
         }
@@ -47,7 +47,7 @@ for( i = 1; i <= 100; i++ ){
         console.log(i + " " + "is divisible by 3");
         }
     }
-    else if(i % 5 === 0 && i != 0) {
+    else if(i % 5 === 0) {
         console.log(i + " " + "is divisible by 5");
     }
 }

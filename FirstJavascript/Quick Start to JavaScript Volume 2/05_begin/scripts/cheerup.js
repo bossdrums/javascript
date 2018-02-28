@@ -4,6 +4,7 @@
    -  if "ok" is clicked, it returns true
    -  if "cancel" is clicked, it returns false 
 */
+
 var sad = confirm("Would you like to be cheered up?");
 
 //this is the same as saying while (sad === true)
@@ -25,7 +26,7 @@ while (sad) {
 }
 
 
-/* 
+/*
 Another example:
 
 var userLoggedIn = false;

@@ -9,6 +9,7 @@ let values = ['Ace','King','Queen','Jack',
     'Ten', 'Nine', 'Eight', 'Seven', 'Six',
     'Five', 'Four', 'Three', 'Two'];
     
+
 //set variables to access DOM
 let textArea = document.getElementById('text-area');
 let newGameButton = document.getElementById('new-game-button');
